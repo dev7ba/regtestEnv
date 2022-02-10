@@ -1,2 +1,7 @@
 #!/bin/bash
-./ccarl.sh -generate 1
+
+if [ "$#" -ne 1 ]; then
+  ./ccarl.sh -generate 1
+else
+  ./ccarl.sh -generate $1
+fi

@@ -1,2 +1,2 @@
 #!/bin/bash
-./calice.sh getaddressesbylabel addrAlice1 | jq 'keys_unsorted'[0]
+./calice.sh getaddressesbylabel addrAlice1 | jq -r 'keys_unsorted'[0]
