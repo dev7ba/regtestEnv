@@ -1,0 +1,217 @@
+
+
+
+
+
+2022-02-10T15:25:08Z Bitcoin Core version v22.0.0 (release build)
+2022-02-10T15:25:08Z Validating signatures for all blocks.
+2022-02-10T15:25:08Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-02-10T15:25:08Z Using the 'sse4(1way),sse41(4way),avx2(8way)' SHA256 implementation
+2022-02-10T15:25:08Z Using RdSeed as additional entropy source
+2022-02-10T15:25:08Z Using RdRand as an additional entropy source
+2022-02-10T15:25:08Z Default data directory /home/ba/.bitcoin
+2022-02-10T15:25:08Z Using data directory /home/ba/git/regtestEnv/./carl/regtest
+2022-02-10T15:25:08Z Config file: /home/ba/git/regtestEnv/./carl/bitcoin.conf
+2022-02-10T15:25:08Z Config file arg: regtest="1"
+2022-02-10T15:25:08Z Config file arg: [regtest] listen="1"
+2022-02-10T15:25:08Z Config file arg: [regtest] port="8335"
+2022-02-10T15:25:08Z Config file arg: [regtest] rpcallowip="192.168.3.2"
+2022-02-10T15:25:08Z Config file arg: [regtest] rpcallowip="172.18.0.3"
+2022-02-10T15:25:08Z Config file arg: [regtest] rpcallowip="172.18.0.8"
+2022-02-10T15:25:08Z Config file arg: [regtest] rpcbind=****
+2022-02-10T15:25:08Z Config file arg: [regtest] rpcpassword=****
+2022-02-10T15:25:08Z Config file arg: [regtest] rpcport="8336"
+2022-02-10T15:25:08Z Config file arg: [regtest] rpcuser=****
+2022-02-10T15:25:08Z Config file arg: [regtest] txindex="1"
+2022-02-10T15:25:08Z Config file arg: [regtest] zmqpubsequence="tcp://192.168.3.2:29002"
+2022-02-10T15:25:08Z Command-line arg: daemon=""
+2022-02-10T15:25:08Z Command-line arg: datadir="./carl"
+2022-02-10T15:25:08Z Using at most 125 automatic connections (1024 file descriptors available)
+2022-02-10T15:25:08Z Warning: relative datadir option './carl' specified, which will be interpreted relative to the current working directory '/home/ba/git/regtestEnv'. This is fragile, because if bitcoin is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if bitcoin is started while in a temporary directory.
+2022-02-10T15:25:08Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2022-02-10T15:25:08Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2022-02-10T15:25:08Z Script verification uses 11 additional threads
+2022-02-10T15:25:08Z scheduler thread start
+2022-02-10T15:25:08Z HTTP: creating work queue of depth 16
+2022-02-10T15:25:08Z Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2022-02-10T15:25:08Z HTTP: starting 4 worker threads
+2022-02-10T15:25:08Z Using wallet directory /home/ba/git/regtestEnv/./carl/regtest/wallets
+2022-02-10T15:25:08Z init message: Verifying wallet(s)…
+2022-02-10T15:25:08Z init message: Loading banlist…
+2022-02-10T15:25:08Z Missing or invalid file /home/ba/git/regtestEnv/./carl/regtest/banlist.dat
+2022-02-10T15:25:08Z Recreating the banlist database
+2022-02-10T15:25:08Z SetNetworkActive: true
+2022-02-10T15:25:08Z Failed to read fee estimates from /home/ba/git/regtestEnv/./carl/regtest/fee_estimates.dat. Continue anyway.
+2022-02-10T15:25:08Z Using /16 prefix for IP bucketing
+2022-02-10T15:25:08Z Cache configuration:
+2022-02-10T15:25:08Z * Using 2.0 MiB for block index database
+2022-02-10T15:25:08Z * Using 56.0 MiB for transaction index database
+2022-02-10T15:25:08Z * Using 8.0 MiB for chain state database
+2022-02-10T15:25:08Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2022-02-10T15:25:08Z init message: Loading block index…
+2022-02-10T15:25:08Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2022-02-10T15:25:08Z Opening LevelDB in /home/ba/git/regtestEnv/./carl/regtest/blocks/index
+2022-02-10T15:25:08Z Opened LevelDB successfully
+2022-02-10T15:25:08Z Using obfuscation key for /home/ba/git/regtestEnv/./carl/regtest/blocks/index: 0000000000000000
+2022-02-10T15:25:08Z LoadBlockIndexDB: last block file = 0
+2022-02-10T15:25:08Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-02-10T15:25:08Z Checking all blk files are present...
+2022-02-10T15:25:08Z Initializing databases...
+2022-02-10T15:25:08Z Opening LevelDB in /home/ba/git/regtestEnv/./carl/regtest/chainstate
+2022-02-10T15:25:08Z Opened LevelDB successfully
+2022-02-10T15:25:08Z Wrote new obfuscate key for /home/ba/git/regtestEnv/./carl/regtest/chainstate: 91298a1a0043b649
+2022-02-10T15:25:08Z Using obfuscation key for /home/ba/git/regtestEnv/./carl/regtest/chainstate: 91298a1a0043b649
+2022-02-10T15:25:08Z  block index              32ms
+2022-02-10T15:25:08Z Opening LevelDB in /home/ba/git/regtestEnv/./carl/regtest/indexes/txindex
+2022-02-10T15:25:08Z Opened LevelDB successfully
+2022-02-10T15:25:08Z Using obfuscation key for /home/ba/git/regtestEnv/./carl/regtest/indexes/txindex: 0000000000000000
+2022-02-10T15:25:08Z txindex thread start
+2022-02-10T15:25:08Z txindex is enabled
+2022-02-10T15:25:08Z txindex thread exit
+2022-02-10T15:25:08Z loadblk thread start
+2022-02-10T15:25:08Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2022-02-10T15:25:08Z Failed to open mempool file from disk. Continuing anyway.
+2022-02-10T15:25:08Z loadblk thread exit
+2022-02-10T15:25:08Z block tree size = 1
+2022-02-10T15:25:08Z nBestHeight = 0
+2022-02-10T15:25:08Z Unable to bind to 127.0.0.1:18445 on this computer. Bitcoin Core is probably already running.
+2022-02-10T15:25:08Z Bound to [::]:8335
+2022-02-10T15:25:08Z torcontrol thread start
+2022-02-10T15:25:08Z Bound to 0.0.0.0:8335
+2022-02-10T15:25:08Z init message: Loading P2P addresses…
+2022-02-10T15:25:08Z Missing or invalid file /home/ba/git/regtestEnv/./carl/regtest/peers.dat
+2022-02-10T15:25:08Z Recreating peers.dat
+2022-02-10T15:25:08Z tor: Authentication cookie /run/tor/control.authcookie could not be opened (check permissions)
+2022-02-10T15:25:08Z Missing or invalid file /home/ba/git/regtestEnv/./carl/regtest/anchors.dat
+2022-02-10T15:25:08Z 0 block-relay-only anchors will be tried for connections.
+2022-02-10T15:25:08Z init message: Starting network threads…
+2022-02-10T15:25:08Z net thread start
+2022-02-10T15:25:08Z dnsseed thread start
+2022-02-10T15:25:08Z 0 addresses found from DNS seeds
+2022-02-10T15:25:08Z dnsseed thread exit
+2022-02-10T15:25:08Z addcon thread start
+2022-02-10T15:25:08Z opencon thread start
+2022-02-10T15:25:08Z init message: Done loading
+2022-02-10T15:25:08Z msghand thread start
+2022-02-10T15:26:09Z Adding fixed seeds as 60 seconds have passed and addrman is empty
+2022-02-10T15:26:56Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2022-02-10T15:26:56Z Using wallet /home/ba/git/regtestEnv/./carl/regtest/wallets/carl/wallet.dat
+2022-02-10T15:26:56Z BerkeleyEnvironment::Open: LogDir=/home/ba/git/regtestEnv/./carl/regtest/wallets/carl/database ErrorFile=/home/ba/git/regtestEnv/./carl/regtest/wallets/carl/db.log
+2022-02-10T15:26:56Z init message: Loading wallet…
+2022-02-10T15:26:56Z [carl] Wallet File Version = 169900
+2022-02-10T15:26:56Z [carl] Keys: 2001 plaintext, 0 encrypted, 2001 w/ metadata, 2001 total. Unknown wallet records: 0
+2022-02-10T15:26:56Z [carl] Wallet completed loading in              36ms
+2022-02-10T15:26:56Z [carl] setKeyPool.size() = 2000
+2022-02-10T15:26:56Z [carl] mapWallet.size() = 0
+2022-02-10T15:26:56Z [carl] m_address_book.size() = 0
+2022-02-10T15:28:13Z Synchronizing blockheaders, height: 1 (~100.00%)
+2022-02-10T15:28:13Z Synchronizing blockheaders, height: 2 (~100.00%)
+2022-02-10T15:28:13Z Synchronizing blockheaders, height: 7 (~100.00%)
+2022-02-10T15:28:13Z Leaving InitialBlockDownload (latching to false)
+2022-02-10T15:28:13Z UpdateTip: new best=4a422f17732a330f2bca5293a9c4fae0fbbe3e0b29ee9fe82a2135f46e3ea50d height=1 version=0x20000000 log2_work=2.000000 tx=2 date='2022-02-10T15:28:13Z' progress=1.000000 cache=0.0MiB(1txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7bf6dd9f073466b3674a262b8f9584b4f99abc8a1e338218b7ad0a1564e63bd6 height=2 version=0x20000000 log2_work=2.584963 tx=3 date='2022-02-10T15:28:14Z' progress=1.000000 cache=0.0MiB(2txo)
+2022-02-10T15:28:13Z UpdateTip: new best=5f4e2a587bd581d8d6a99775ec00005841459838cd56ec30508a7ae4b04ed4d0 height=3 version=0x20000000 log2_work=3.000000 tx=4 date='2022-02-10T15:28:14Z' progress=1.000000 cache=0.0MiB(3txo)
+2022-02-10T15:28:13Z UpdateTip: new best=23903fc22c57bd46db1bd96628d2d665227dbb0ae64c84660d062a443a92d294 height=4 version=0x20000000 log2_work=3.321928 tx=5 date='2022-02-10T15:28:15Z' progress=1.000000 cache=0.0MiB(4txo)
+2022-02-10T15:28:13Z UpdateTip: new best=06d5b2d2259a6ea1a40854f2848d40ec7124ff08dd6f217b4c82c8409c4fb3a2 height=5 version=0x20000000 log2_work=3.584963 tx=6 date='2022-02-10T15:28:15Z' progress=1.000000 cache=0.0MiB(5txo)
+2022-02-10T15:28:13Z UpdateTip: new best=37c4ab8d712e32d441b0c211446a27787ef7c321c74aaa0d261e5f86dc3b3fc8 height=6 version=0x20000000 log2_work=3.807355 tx=7 date='2022-02-10T15:28:15Z' progress=1.000000 cache=0.0MiB(6txo)
+2022-02-10T15:28:13Z UpdateTip: new best=0e9beabb5b93c1f8e37ff9ba78e2af4224a639ce30fbe6e417b8cb01ddea9ddc height=7 version=0x20000000 log2_work=4.000000 tx=8 date='2022-02-10T15:28:15Z' progress=1.000000 cache=0.0MiB(7txo)
+2022-02-10T15:28:13Z UpdateTip: new best=05b2be6538e75e2a24df0eca41e3b873801db932636c3f6ac633f5e6d72e8a35 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2022-02-10T15:28:16Z' progress=1.000000 cache=0.0MiB(8txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3fc42cbef89a2d9a688065957bb5a95f22c4175a8976b6511618fb63261331f4 height=9 version=0x20000000 log2_work=4.321928 tx=10 date='2022-02-10T15:28:16Z' progress=1.000000 cache=0.0MiB(9txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3ad63339556d6ed4aa56116da8d97d03438f60ba3de7701cea5c454b195183a1 height=10 version=0x20000000 log2_work=4.459432 tx=11 date='2022-02-10T15:28:16Z' progress=1.000000 cache=0.0MiB(10txo)
+2022-02-10T15:28:13Z UpdateTip: new best=2891e6312f92c0832bd07f31764ed3c8fb01b9096160c826fe35f8bb784bbfc8 height=11 version=0x20000000 log2_work=4.584963 tx=12 date='2022-02-10T15:28:16Z' progress=1.000000 cache=0.0MiB(11txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7044dc448a1fbcb56fc9da2863c9018af5d2fa1d7be42c3057132410ccff6dd6 height=12 version=0x20000000 log2_work=4.700440 tx=13 date='2022-02-10T15:28:16Z' progress=1.000000 cache=0.0MiB(12txo)
+2022-02-10T15:28:13Z UpdateTip: new best=77a064390d72f894389f35c5d8501642cf51076dd091b658fdca3311ff9ad88a height=13 version=0x20000000 log2_work=4.807355 tx=14 date='2022-02-10T15:28:16Z' progress=1.000000 cache=0.0MiB(13txo)
+2022-02-10T15:28:13Z UpdateTip: new best=432566ffcf96d5687801a682d018e0f72b4035224be5b56f439a55260f658d74 height=14 version=0x20000000 log2_work=4.906891 tx=15 date='2022-02-10T15:28:17Z' progress=1.000000 cache=0.0MiB(14txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4bb47ed9603a35c889053598397ca020b7091e9cac6edd3689722214de110d79 height=15 version=0x20000000 log2_work=5.000000 tx=16 date='2022-02-10T15:28:17Z' progress=1.000000 cache=0.0MiB(15txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4d9bcee1d1f53b1b7facbed4ba20044975d5384794ccfb40d164fcef312986ee height=16 version=0x20000000 log2_work=5.087463 tx=17 date='2022-02-10T15:28:17Z' progress=1.000000 cache=0.0MiB(16txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4eae0c7e6d6a12bf898fd284a652d5d6d77963465ac546ea45d7c49f23f6a1ef height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2022-02-10T15:28:17Z' progress=1.000000 cache=0.0MiB(17txo)
+2022-02-10T15:28:13Z UpdateTip: new best=050568c3870ed9e97f3ad0bfbe52d4bdc7df74e0ec3e7b205a27e1027fcf8146 height=18 version=0x20000000 log2_work=5.247928 tx=19 date='2022-02-10T15:28:17Z' progress=1.000000 cache=0.0MiB(18txo)
+2022-02-10T15:28:13Z UpdateTip: new best=51c2e86deac9e6e38cc935df676c2d9755f3fa3495fefcca316656e6a844a3a3 height=19 version=0x20000000 log2_work=5.321928 tx=20 date='2022-02-10T15:28:17Z' progress=1.000000 cache=0.0MiB(19txo)
+2022-02-10T15:28:13Z UpdateTip: new best=47ede66709fcd5565418eee799b79896de03187d0eb5c74fc084d25d887e7ff1 height=20 version=0x20000000 log2_work=5.392317 tx=21 date='2022-02-10T15:28:18Z' progress=1.000000 cache=0.0MiB(20txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3349f7308d59ff6f67ccc2c5a24c30ca21517cef025be213a92c4b54243b7fcd height=21 version=0x20000000 log2_work=5.459432 tx=22 date='2022-02-10T15:28:18Z' progress=1.000000 cache=0.0MiB(21txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4ed9f9f2d85a65edc63d5b7543c8b091541e7e3fb5b42692dce1765c1366dc19 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2022-02-10T15:28:18Z' progress=1.000000 cache=0.0MiB(22txo)
+2022-02-10T15:28:13Z UpdateTip: new best=27df4bb8b6e17eb7e36bbeb1244914f5733f54b97b1e2cf3034f71b93bbfe963 height=23 version=0x20000000 log2_work=5.584963 tx=24 date='2022-02-10T15:28:18Z' progress=1.000000 cache=0.0MiB(23txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7a2029c3905f98f7e42eb91a4d5832b9bfcd08358b9c2a6961db640de6bfbcd7 height=24 version=0x20000000 log2_work=5.643856 tx=25 date='2022-02-10T15:28:18Z' progress=1.000000 cache=0.0MiB(24txo)
+2022-02-10T15:28:13Z UpdateTip: new best=6856329de39f48cd0eef8322dd3ef82a8bc190549600117bc1db795d9b1fecb3 height=25 version=0x20000000 log2_work=5.700440 tx=26 date='2022-02-10T15:28:18Z' progress=1.000000 cache=0.0MiB(25txo)
+2022-02-10T15:28:13Z UpdateTip: new best=642e5e8a50ed7ba5c20e44b0d948d0751727b3734582c6f0475b14833636a630 height=26 version=0x20000000 log2_work=5.754888 tx=27 date='2022-02-10T15:28:19Z' progress=1.000000 cache=0.0MiB(26txo)
+2022-02-10T15:28:13Z UpdateTip: new best=631443b5e617887fe54e257275ca2fb8209745787677a7e495fa45615abaff75 height=27 version=0x20000000 log2_work=5.807355 tx=28 date='2022-02-10T15:28:19Z' progress=1.000000 cache=0.0MiB(27txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4808768b428fab83adbfe9815a29f142feb6a5701324eab458a746da9df91cdb height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2022-02-10T15:28:19Z' progress=1.000000 cache=0.0MiB(28txo)
+2022-02-10T15:28:13Z UpdateTip: new best=47520333a9b1ce8ddd252ad6bf7ea2a0410f8c8d358c5dcb4ea2bb197d0b4498 height=29 version=0x20000000 log2_work=5.906891 tx=30 date='2022-02-10T15:28:19Z' progress=1.000000 cache=0.0MiB(29txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3ead33b8433dbbf265684f21bb60452ec4c3e99064667fa4c22cec285a3343b4 height=30 version=0x20000000 log2_work=5.954196 tx=31 date='2022-02-10T15:28:19Z' progress=1.000000 cache=0.0MiB(30txo)
+2022-02-10T15:28:13Z UpdateTip: new best=5e16570a804d54337d58b38ccea63654c9b4245c13569bdf856da98aa3b45fc3 height=31 version=0x20000000 log2_work=6.000000 tx=32 date='2022-02-10T15:28:19Z' progress=1.000000 cache=0.0MiB(31txo)
+2022-02-10T15:28:13Z UpdateTip: new best=24045e965c1b36c285a377c631b1ab0eba68034626f259daa918124799387fd6 height=32 version=0x20000000 log2_work=6.044394 tx=33 date='2022-02-10T15:28:20Z' progress=1.000000 cache=0.0MiB(32txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4b47de508db1c7dc2658e41906928451c9dcc993f2ebc98e8863f26183bcf38e height=33 version=0x20000000 log2_work=6.087463 tx=34 date='2022-02-10T15:28:20Z' progress=1.000000 cache=0.0MiB(33txo)
+2022-02-10T15:28:13Z UpdateTip: new best=630028149b60c5d48f173d65589126b93e3a0749212f974e658facd63979a453 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2022-02-10T15:28:20Z' progress=1.000000 cache=0.0MiB(34txo)
+2022-02-10T15:28:13Z UpdateTip: new best=16361d6de507c22588bddcbebe9460d176efe80e6d62ec74ef1e2d4afd3c6ea2 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2022-02-10T15:28:20Z' progress=1.000000 cache=0.0MiB(35txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4dfb37cc8cbb76ced63afadff1180d0801cbc706641845115278f18bc2caa7d0 height=36 version=0x20000000 log2_work=6.209453 tx=37 date='2022-02-10T15:28:20Z' progress=1.000000 cache=0.0MiB(36txo)
+2022-02-10T15:28:13Z UpdateTip: new best=652f5309a52b627affd879da1acb31f4d48645a299df0d0483a657ad2c3eb66b height=37 version=0x20000000 log2_work=6.247928 tx=38 date='2022-02-10T15:28:20Z' progress=1.000000 cache=0.0MiB(37txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7db1b622a4a24ba2f8d1b01fb3063520f3abe5e6e28fd4e617be03c469858ba4 height=38 version=0x20000000 log2_work=6.285402 tx=39 date='2022-02-10T15:28:21Z' progress=1.000000 cache=0.0MiB(38txo)
+2022-02-10T15:28:13Z UpdateTip: new best=55b75bfeb3cb70d2736c7da11ca7c97116750579468ccac568a74f8bb50719db height=39 version=0x20000000 log2_work=6.321928 tx=40 date='2022-02-10T15:28:21Z' progress=1.000000 cache=0.0MiB(39txo)
+2022-02-10T15:28:13Z UpdateTip: new best=52167be1b45019fc0ba8312923130ad644828d64cb0122cfe98dc50d74456ae2 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2022-02-10T15:28:21Z' progress=1.000000 cache=0.0MiB(40txo)
+2022-02-10T15:28:13Z UpdateTip: new best=5f956942e65155950d83b59f22eece7313836af954ec0b2ae1d6aac67eda9d34 height=41 version=0x20000000 log2_work=6.392317 tx=42 date='2022-02-10T15:28:21Z' progress=1.000000 cache=0.0MiB(41txo)
+2022-02-10T15:28:13Z UpdateTip: new best=219d45ef5950f1cfd9dd5337babf66ce140f7f437832188c8ace265c06fe796e height=42 version=0x20000000 log2_work=6.426265 tx=43 date='2022-02-10T15:28:21Z' progress=1.000000 cache=0.0MiB(42txo)
+2022-02-10T15:28:13Z UpdateTip: new best=02ab3989fa36d19a94b7406df001cfce532fbd77d39027e6e130aaf67b9f033b height=43 version=0x20000000 log2_work=6.459432 tx=44 date='2022-02-10T15:28:21Z' progress=1.000000 cache=0.0MiB(43txo)
+2022-02-10T15:28:13Z UpdateTip: new best=5a3ec64fb4648726b0d3b881b61ca6fc7621fd7f0482db2545f10e2824667b8c height=44 version=0x20000000 log2_work=6.491853 tx=45 date='2022-02-10T15:28:22Z' progress=1.000000 cache=0.0MiB(44txo)
+2022-02-10T15:28:13Z UpdateTip: new best=6987e86788fe1122ad63193f1e1932d6d4b5206595b4d50153a5c85c676211cb height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2022-02-10T15:28:22Z' progress=1.000000 cache=0.0MiB(45txo)
+2022-02-10T15:28:13Z UpdateTip: new best=409e115ccd119b77cd5b48840d7bd13b58efadbf8f0947dadfbd3ea4badb3dd5 height=46 version=0x20000000 log2_work=6.554589 tx=47 date='2022-02-10T15:28:22Z' progress=1.000000 cache=0.0MiB(46txo)
+2022-02-10T15:28:13Z UpdateTip: new best=209b98afa4ff049f02b22592c84a85b326b122021a55d03fe4073da687e4fc13 height=47 version=0x20000000 log2_work=6.584963 tx=48 date='2022-02-10T15:28:22Z' progress=1.000000 cache=0.0MiB(47txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3ccbe8b08414130e856b7f9e8251b58b316a0e8c92f9a26cb8491695e4d0b7e7 height=48 version=0x20000000 log2_work=6.614710 tx=49 date='2022-02-10T15:28:22Z' progress=1.000000 cache=0.0MiB(48txo)
+2022-02-10T15:28:13Z UpdateTip: new best=0bc957c3fccc48efab4a33743e0b1d416ac8792f9484c0740f01fa6e37877645 height=49 version=0x20000000 log2_work=6.643856 tx=50 date='2022-02-10T15:28:22Z' progress=1.000000 cache=0.0MiB(49txo)
+2022-02-10T15:28:13Z UpdateTip: new best=659ec074eeed3f6a11c55d7e5f29c67d5034b4f0945fe8fd20e935b0b87b4ec1 height=50 version=0x20000000 log2_work=6.672425 tx=51 date='2022-02-10T15:28:23Z' progress=1.000000 cache=0.0MiB(50txo)
+2022-02-10T15:28:13Z UpdateTip: new best=555620280e8520fbe0f7ca262993b2879bcd8e64f419385ddebb58054e6e23ee height=51 version=0x20000000 log2_work=6.700440 tx=52 date='2022-02-10T15:28:23Z' progress=1.000000 cache=0.0MiB(51txo)
+2022-02-10T15:28:13Z UpdateTip: new best=34a9e14fbeff113746254a3154a18d404f7d7f563168f43c363e7158cc47d028 height=52 version=0x20000000 log2_work=6.727920 tx=53 date='2022-02-10T15:28:23Z' progress=1.000000 cache=0.0MiB(52txo)
+2022-02-10T15:28:13Z UpdateTip: new best=335ffd1b75e9068e11fd239164a62da1dd398d028ea7b0930ad735c54b6a0917 height=53 version=0x20000000 log2_work=6.754888 tx=54 date='2022-02-10T15:28:23Z' progress=1.000000 cache=0.0MiB(53txo)
+2022-02-10T15:28:13Z UpdateTip: new best=23f48ba2a305fe813208d194f8ff1122c973001192575bcb7063dcfdfeace7b9 height=54 version=0x20000000 log2_work=6.781360 tx=55 date='2022-02-10T15:28:23Z' progress=1.000000 cache=0.0MiB(54txo)
+2022-02-10T15:28:13Z UpdateTip: new best=6ba7b1da2a1d1bbf637896945e6f4fd1c481c1764b0b399556773dfa6b53fb25 height=55 version=0x20000000 log2_work=6.807355 tx=56 date='2022-02-10T15:28:23Z' progress=1.000000 cache=0.0MiB(55txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3f17cc4f2a9b96cc9898f569a1a8a19bb7576db1b060f33ddd314676a732a013 height=56 version=0x20000000 log2_work=6.832890 tx=57 date='2022-02-10T15:28:24Z' progress=1.000000 cache=0.0MiB(56txo)
+2022-02-10T15:28:13Z UpdateTip: new best=197d2c5f57ae6f182cb62f1949d3f2a7ce1e1d2e00a39bd124d3ae833ff6741e height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2022-02-10T15:28:24Z' progress=1.000000 cache=0.0MiB(57txo)
+2022-02-10T15:28:13Z UpdateTip: new best=59644b08adacc638c9d0481f2bac6bbf94f9067bcbbfb0031913b6c667f2bdaf height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2022-02-10T15:28:24Z' progress=1.000000 cache=0.0MiB(58txo)
+2022-02-10T15:28:13Z UpdateTip: new best=35ada4311d49a8cf5d3733c389e096b69e67943dc6b9d6f78d35e916947c025e height=59 version=0x20000000 log2_work=6.906891 tx=60 date='2022-02-10T15:28:24Z' progress=1.000000 cache=0.0MiB(59txo)
+2022-02-10T15:28:13Z UpdateTip: new best=5b433eff629017897117669f6524353c109b177bfabf387b45b1e5f2a147e178 height=60 version=0x20000000 log2_work=6.930737 tx=61 date='2022-02-10T15:28:24Z' progress=1.000000 cache=0.0MiB(60txo)
+2022-02-10T15:28:13Z UpdateTip: new best=76c5351980fa99b7491aaedba65bd60985256e7e0801ca75deecd3a77e09304b height=61 version=0x20000000 log2_work=6.954196 tx=62 date='2022-02-10T15:28:24Z' progress=1.000000 cache=0.0MiB(61txo)
+2022-02-10T15:28:13Z UpdateTip: new best=5a5a9da9bf35f614c03a76d2ecdf6ea88db019ca233b7ca81b023780a41be370 height=62 version=0x20000000 log2_work=6.977280 tx=63 date='2022-02-10T15:28:25Z' progress=1.000000 cache=0.0MiB(62txo)
+2022-02-10T15:28:13Z UpdateTip: new best=69d19e8be942a45f4f52baf99799258ce4d864578e836d594b53ecb5b5883d35 height=63 version=0x20000000 log2_work=7.000000 tx=64 date='2022-02-10T15:28:25Z' progress=1.000000 cache=0.0MiB(63txo)
+2022-02-10T15:28:13Z UpdateTip: new best=07766413d2d78822c3df5cae25de54750c8b2f58f17744657ae625dca779cd21 height=64 version=0x20000000 log2_work=7.022368 tx=65 date='2022-02-10T15:28:25Z' progress=1.000000 cache=0.0MiB(64txo)
+2022-02-10T15:28:13Z UpdateTip: new best=2c13d2d44e97c3268968f762ea07db96e03a85e90d62b6d63f6658d87be02958 height=65 version=0x20000000 log2_work=7.044394 tx=66 date='2022-02-10T15:28:25Z' progress=1.000000 cache=0.0MiB(65txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4d3e1b4d5f4782fa75fc7918fb77adf55c6485a9b7d87b5f8e90f65b1ad9810f height=66 version=0x20000000 log2_work=7.066089 tx=67 date='2022-02-10T15:28:25Z' progress=1.000000 cache=0.0MiB(66txo)
+2022-02-10T15:28:13Z UpdateTip: new best=79ede795bc8ac323b8cb7673c94dc073ba2d4a6ee55013da067f4e8ccd204ac2 height=67 version=0x20000000 log2_work=7.087463 tx=68 date='2022-02-10T15:28:25Z' progress=1.000000 cache=0.0MiB(67txo)
+2022-02-10T15:28:13Z UpdateTip: new best=66c90f3c1ca986c7ebd58ea8ee66ea2a4efbc135640fec1db7fb5cad5456bfcd height=68 version=0x20000000 log2_work=7.108524 tx=69 date='2022-02-10T15:28:26Z' progress=1.000000 cache=0.0MiB(68txo)
+2022-02-10T15:28:13Z UpdateTip: new best=06e76d9e2bc1976d3896d779b2116bb7ce031c82898245b40767460f41e9fd07 height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2022-02-10T15:28:26Z' progress=1.000000 cache=0.0MiB(69txo)
+2022-02-10T15:28:13Z UpdateTip: new best=32ab366e38d3342306a42484a24ef12da9dac325e2375cce7db883d1f08952db height=70 version=0x20000000 log2_work=7.149747 tx=71 date='2022-02-10T15:28:26Z' progress=1.000000 cache=0.0MiB(70txo)
+2022-02-10T15:28:13Z UpdateTip: new best=6297f1bd03f10769736449575f6652998b10d0673da4216e24ffbc35b22f43d5 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2022-02-10T15:28:26Z' progress=1.000000 cache=0.0MiB(71txo)
+2022-02-10T15:28:13Z UpdateTip: new best=241db5c186dcdb20e767d4367ea96bdb4b0b2c924728e47fdae3d4d7b4b7f98a height=72 version=0x20000000 log2_work=7.189825 tx=73 date='2022-02-10T15:28:26Z' progress=1.000000 cache=0.0MiB(72txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7a166158ae491f4116e31da8c0928de81e3c5e8324e17b21e0da0b4168824bf7 height=73 version=0x20000000 log2_work=7.209453 tx=74 date='2022-02-10T15:28:26Z' progress=1.000000 cache=0.0MiB(73txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7a77bb9cc110573f320eda91e8ba8d5c59e667580db92617539fa51585ec2620 height=74 version=0x20000000 log2_work=7.228819 tx=75 date='2022-02-10T15:28:27Z' progress=1.000000 cache=0.0MiB(74txo)
+2022-02-10T15:28:13Z UpdateTip: new best=18ad41dc9d7e1e7a20b05e3ac261d1b9b9e5922b681b71ee7688e78143f1cc74 height=75 version=0x20000000 log2_work=7.247928 tx=76 date='2022-02-10T15:28:27Z' progress=1.000000 cache=0.0MiB(75txo)
+2022-02-10T15:28:13Z UpdateTip: new best=21df9a6a3cc70e796e87652e37fa638ed4122c1395cf760f38dd61d11c8c0308 height=76 version=0x20000000 log2_work=7.266787 tx=77 date='2022-02-10T15:28:27Z' progress=1.000000 cache=0.0MiB(76txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4f9110028af4b06f3e92c256ea66e691bb3c936a32e3699bfa521c541217a6c8 height=77 version=0x20000000 log2_work=7.285402 tx=78 date='2022-02-10T15:28:27Z' progress=1.000000 cache=0.0MiB(77txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4acd9b4d3b3f3c5f6acdbd33e5157cf55f96eba7233995b5f64dcc9b88509bc8 height=78 version=0x20000000 log2_work=7.303781 tx=79 date='2022-02-10T15:28:27Z' progress=1.000000 cache=0.0MiB(78txo)
+2022-02-10T15:28:13Z UpdateTip: new best=622449bf8ef91a39c588262dffa12803dc53f0d87eaa4ea78c0317ff644f467e height=79 version=0x20000000 log2_work=7.321928 tx=80 date='2022-02-10T15:28:27Z' progress=1.000000 cache=0.0MiB(79txo)
+2022-02-10T15:28:13Z UpdateTip: new best=5da5d18f050837c4ff66f0af793bd205a00ed40543d2362afa9180a72ba118c0 height=80 version=0x20000000 log2_work=7.339850 tx=81 date='2022-02-10T15:28:28Z' progress=1.000000 cache=0.0MiB(80txo)
+2022-02-10T15:28:13Z UpdateTip: new best=126dbcf3295ecd0c88c682fd4822205c45c5766d6410341d55be5f62c3ca94d3 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2022-02-10T15:28:28Z' progress=1.000000 cache=0.0MiB(81txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7d38f4af67a5bfafe41721ba9c78aaf940e3dbe584df15aa444b2b402f3a637e height=82 version=0x20000000 log2_work=7.375039 tx=83 date='2022-02-10T15:28:28Z' progress=1.000000 cache=0.0MiB(82txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7216a3a05e8f50758168dc2635eb6d85b9f59cc8497f3a403091bbb2e527b79c height=83 version=0x20000000 log2_work=7.392317 tx=84 date='2022-02-10T15:28:28Z' progress=1.000000 cache=0.0MiB(83txo)
+2022-02-10T15:28:13Z UpdateTip: new best=624aa5cb9896f68fc25517e83d7911e292e1ee76815458113e0775e05690c8e2 height=84 version=0x20000000 log2_work=7.409391 tx=85 date='2022-02-10T15:28:28Z' progress=1.000000 cache=0.0MiB(84txo)
+2022-02-10T15:28:13Z UpdateTip: new best=1a689de09f73bdf8dd31a112a35d4f152804da7d65648763e68569355717973b height=85 version=0x20000000 log2_work=7.426265 tx=86 date='2022-02-10T15:28:28Z' progress=1.000000 cache=0.0MiB(85txo)
+2022-02-10T15:28:13Z UpdateTip: new best=27fd512177acdcb7ebd05ff6282065230f7479b2ee4be1e8f190330eef24eb4d height=86 version=0x20000000 log2_work=7.442943 tx=87 date='2022-02-10T15:28:29Z' progress=1.000000 cache=0.0MiB(86txo)
+2022-02-10T15:28:13Z UpdateTip: new best=53873dfe7511469d082f5915732c310f3eeb47bd8367084559221f670e57d190 height=87 version=0x20000000 log2_work=7.459432 tx=88 date='2022-02-10T15:28:29Z' progress=1.000000 cache=0.0MiB(87txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3224179469a0433f65ecd7fd6e537ce588de3f9a920236587b67deeea1964328 height=88 version=0x20000000 log2_work=7.475733 tx=89 date='2022-02-10T15:28:29Z' progress=1.000000 cache=0.0MiB(88txo)
+2022-02-10T15:28:13Z UpdateTip: new best=7354458561482a880ae66763cdf0338ada7cec3b2346e506c2f91dddbcbfde02 height=89 version=0x20000000 log2_work=7.491853 tx=90 date='2022-02-10T15:28:29Z' progress=1.000000 cache=0.0MiB(89txo)
+2022-02-10T15:28:13Z UpdateTip: new best=0c674f6114e531994f7e73279047d347522053a78a91fdf4259434ea6ee1a418 height=90 version=0x20000000 log2_work=7.507795 tx=91 date='2022-02-10T15:28:29Z' progress=1.000000 cache=0.0MiB(90txo)
+2022-02-10T15:28:13Z UpdateTip: new best=24a5e08812e3e05ed5a20efc8ef9505d599a876303f27768d907bf7f497644f5 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2022-02-10T15:28:29Z' progress=1.000000 cache=0.0MiB(91txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3b9cdbe56717690720fed43d47b020ebc5ded373a9a598ff50a5ad0c33f3695c height=92 version=0x20000000 log2_work=7.539159 tx=93 date='2022-02-10T15:28:30Z' progress=1.000000 cache=0.0MiB(92txo)
+2022-02-10T15:28:13Z UpdateTip: new best=3577890cf249d7cccdfc3a27453c5020deafacec77834396fa71a0dc2a23cdd9 height=93 version=0x20000000 log2_work=7.554589 tx=94 date='2022-02-10T15:28:30Z' progress=1.000000 cache=0.0MiB(93txo)
+2022-02-10T15:28:13Z UpdateTip: new best=149cfc38282d5a497995a07e53726ab50bf4070531bc8e6ed598c4f4f43980a8 height=94 version=0x20000000 log2_work=7.569856 tx=95 date='2022-02-10T15:28:30Z' progress=1.000000 cache=0.0MiB(94txo)
+2022-02-10T15:28:13Z UpdateTip: new best=0d5268edac8a2ab12c428fb51264ba04c2cffc5c100e30d3ea9de31bf434449d height=95 version=0x20000000 log2_work=7.584963 tx=96 date='2022-02-10T15:28:30Z' progress=1.000000 cache=0.0MiB(95txo)
+2022-02-10T15:28:13Z UpdateTip: new best=4c25451c4ea37e7eaf96290f7e3c04f97b6dadcc869946ceff17e4cbc2772093 height=96 version=0x20000000 log2_work=7.599913 tx=97 date='2022-02-10T15:28:30Z' progress=1.000000 cache=0.0MiB(96txo)
+2022-02-10T15:28:13Z UpdateTip: new best=0fda66ccd63de6dffe842e53faa35a87dff7e694a367bf1f94ad8f7ceacffcdc height=97 version=0x20000000 log2_work=7.614710 tx=98 date='2022-02-10T15:28:30Z' progress=1.000000 cache=0.0MiB(97txo)
+2022-02-10T15:28:13Z UpdateTip: new best=18d7cf915d39f3bcc0feeaf8b4691ad0f08a480f9490af9c080433c6b543dabb height=98 version=0x20000000 log2_work=7.629357 tx=99 date='2022-02-10T15:28:31Z' progress=1.000000 cache=0.0MiB(98txo)
+2022-02-10T15:28:13Z UpdateTip: new best=741a520b0165297d0b54fccc4ec59b53f63f795a4db044c1b3b8be887f627403 height=99 version=0x20000000 log2_work=7.643856 tx=100 date='2022-02-10T15:28:31Z' progress=1.000000 cache=0.0MiB(99txo)
+2022-02-10T15:28:13Z UpdateTip: new best=240a457a84a41c4921a92c8f21979f5ec7d1c735d01129e97797a9a7adbcad6c height=100 version=0x20000000 log2_work=7.658211 tx=101 date='2022-02-10T15:28:31Z' progress=1.000000 cache=0.0MiB(100txo)
+2022-02-10T15:28:13Z UpdateTip: new best=1e1b921f5cb83afb56e6f82ca9abadbe1b22c9b3028a1e561dd9b4f546a9cfc3 height=101 version=0x20000000 log2_work=7.672425 tx=102 date='2022-02-10T15:28:31Z' progress=1.000000 cache=0.0MiB(101txo)
+2022-02-10T15:28:13Z UpdateTip: new best=2db7dc796a0de5850f93622beffcf675cfc9c315d9d337dfb41a9e63f272f669 height=102 version=0x20000000 log2_work=7.686501 tx=103 date='2022-02-10T15:28:31Z' progress=1.000000 cache=0.0MiB(102txo)
+2022-02-10T15:34:39Z [carl] keypool reserve 1
+2022-02-10T15:34:39Z [carl] keypool keep 1
+2022-02-10T15:47:38Z UpdateTip: new best=2d5591825eb977cdff5e80935f83eb6ef500c15c901c9756f78e44b4d8cf9786 height=103 version=0x20000000 log2_work=7.700440 tx=104 date='2022-02-10T15:47:38Z' progress=1.000000 cache=0.0MiB(103txo)
+2022-02-10T15:48:53Z UpdateTip: new best=110e28f5d894124022c2595897fd9cccce0a14a138e011454f5fe48901291251 height=104 version=0x20000000 log2_work=7.714246 tx=105 date='2022-02-10T15:48:53Z' progress=1.000000 cache=0.0MiB(104txo)
+2022-02-10T15:51:07Z UpdateTip: new best=5d47de06528a73123d89677010931a3cf5b8d74fd6451bebbadd76ee5745d0ee height=105 version=0x20000000 log2_work=7.727920 tx=106 date='2022-02-10T15:51:07Z' progress=1.000000 cache=0.0MiB(105txo)
