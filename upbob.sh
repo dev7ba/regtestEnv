@@ -1,2 +1,2 @@
 #!/bin/bash
-~/programas/bitcoin-22.0/bin/bitcoind -datadir=./bob -daemon
+($BITCOIND_PATH/bitcoind -datadir=./bob -daemon)
