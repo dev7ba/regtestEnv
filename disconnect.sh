@@ -30,6 +30,6 @@ fi
 if [ $from == "none" ] || [ $to == "none" ]; then
   echo "Error, usage is like this! ./connect.sh [alice|bob|carl] [alice|bob|carl]"
 else
-  echo Connect $1 to $2
-  ($from addnode $to onetry)
+  echo Disconnect $1 to $2
+  ($from disconnectnode $to)
 fi

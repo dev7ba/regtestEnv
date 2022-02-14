@@ -36,8 +36,9 @@ This is the list of commands you can use in each node. Commands normaly has one 
   * up[node].sh start bitcoind for alice.
   * upAll.sh starts all bitcoind instances (for Alice, Bob and Carl).
   * downAll.sh stops all bitcoind instances.
-* Wallet creation (needed before mining any block)
+* Wallet creation/loading (needed before mining any block)
   * cw[node].sh create wallet for [node].
+  * lw[node].sh loads wallet for [node].
 * General comand-sending:
   * c[node].sh send a rpccommand to alice. i.e. ``calice.sh stop``
 * General purpose commands:
@@ -48,6 +49,7 @@ This is the list of commands you can use in each node. Commands normaly has one 
   * rmAllWithWallets.sh remove all files and directories for all nodes.
 * Address creation and querying:
   * na[node].sh create a new address for [node] named addr[node]1
+  * naAll.sh as above but for all nodes.
   * ga[node].sh get address of [node]
 * Block creation:
   * gb[node].sh (optional:numblocks=1) generate numblocks mining.
@@ -55,3 +57,13 @@ This is the list of commands you can use in each node. Commands normaly has one 
   * [node]st.sh [node] send to [alice|bob|carl] [amount] [fee in sat/vByte] i.e. alicest.sh bob 0.01 20
 * Connect and disconnect:
   * connect.sh [alice|bob|carl] [alice|bob|carl] connect one node with the other.
+  * disconnect.sh [alice|bob|carl] [alice|bob|carl] disconnect one node with the other.
+
+      Be aware that you have to connect/disconnect nodes with the same node ordering.
+      i.e. if you use `connect.sh alice bob` to connect alice with bob, you MUST use `disconnect.sh alice bob` do NOT use `disconnect.sh bob alice`
+
+## Scripts for testing
+
+For now there is only a testing environment which produces a chain reorganization between Alice and Bob:
+
+* testReorg.sh
